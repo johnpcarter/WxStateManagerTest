@@ -7,8 +7,9 @@ import com.wm.util.Values;
 import com.wm.app.b2b.server.Service;
 import com.wm.app.b2b.server.ServiceException;
 // --- <<IS-START-IMPORTS>> ---
-import com.softwareag.util.IDataMap;
 import com.wm.app.b2b.server.ServerAPI;
+import com.wm.data.IData;
+import com.webmethods.is.util.IDataMap;
 // --- <<IS-END-IMPORTS>> ---
 
 public final class priv
@@ -32,6 +33,7 @@ public final class priv
 	{
 		// --- <<IS-START(getHostName)>> ---
 		// @sigtype java 3.5
+		// [o] field:0:required hostname
 		new IDataMap(pipeline).put("hostname", ServerAPI.getServerName());
 		// --- <<IS-END>> ---
 

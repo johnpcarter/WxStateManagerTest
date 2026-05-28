@@ -12,7 +12,8 @@
   <array name="implements" type="value" depth="1">
   </array>
   <array name="imports" type="value" depth="1">
-    <value>com.softwareag.util.IDataMap</value>
     <value>com.wm.app.b2b.server.ServerAPI</value>
+    <value>com.wm.data.IData</value>
+    <value>com.webmethods.is.util.IDataMap</value>
   </array>
 </Values>

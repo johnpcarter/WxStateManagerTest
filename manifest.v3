@@ -13,7 +13,7 @@
   <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build"></value>
+  <value name="build">5</value>
   <value name="description">Setups various test scenarios to test the WxStateManager package, namely
 - schedulers
 - listeners
